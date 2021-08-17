@@ -132,7 +132,8 @@ a {
 
 .nav__menu-link:hover,
 .nav__menu-link:active,
-.nav__menu-link:focus {
+.nav__menu-link:focus,
+.nav__menu-link:visited {
   background-color: var(--gold);
   color: var(--color-primary);
 }
