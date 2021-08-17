@@ -1,0 +1,30 @@
+:root {
+  --gold: #ffecb3;
+  --color-primary: #000;
+  --color-secondary: #ffecb3;
+  --foreground: #4f4f4f;
+  --background: rgb(255, 255, 255);
+  --foreground-menu-nav: rgb(255, 255, 255);
+  --background-footer: #222;
+  --border-outline: #fff;
+  --border: rgba(3, 3, 3, 0.212);
+  --foreground-link: #0083b0;
+  --shadow-main: rgba(0, 0, 0, 0.3);
+  --foreground--panel: #4f4f4f;
+  --panel: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gold: #ffecb3;
+    --color-secondary: #000;
+    --foreground: #ffffff;
+    --foreground-menu-nav: rgb(255, 255, 255);
+    --background: #455a64;
+    --background-footer: #222;
+    --border-outline: #fff;
+    --border: rgba(3, 3, 3, 0.212);
+    --foreground-link: #0083b0;
+    --shadow-main: rgba(0, 0, 0, 0.3);
+  }
+}
